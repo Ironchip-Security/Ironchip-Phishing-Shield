@@ -1,8 +1,9 @@
-<img width="705" height="605" alt="image" src="https://github.com/user-attachments/assets/e2d0a8a3-796b-4f8e-98bb-f49c4fa5c199" />
 # Ironchip Phishing Shield
 **Protección proactiva contra Typo-squatting, Ataques de Homógrafos y Phishing.**
 
-Bienvenido al repositorio que alimenta la lista de dominios protegidos de la extensión **Ironchip Phishing Shield**. Esta lista de dominios es de código abierto y colaborativa, crucial para la eficacia de la herramienta.
+<img width="705" height="605" alt="image" src="https://github.com/user-attachments/assets/e2d0a8a3-796b-4f8e-98bb-f49c4fa5c199" />
+
+Bienvenido al repositorio de la extensión **Ironchip Phishing Shield**. El repostorio contiene el fichero que alimenta la lista de dominios protegidos. Esta lista de dominios es de código abierto y colaborativa, crucial para la eficacia de la herramienta.
 
 ***
 
