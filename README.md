@@ -50,7 +50,7 @@ La extensión "Phishing Shield" se instalará y aparecerá en tu barra de herram
 
 ***
 
-## ⚙️ Primeros Pasos y Configuración de API Keys
+## ⚙️ Primeros Pasos y Configuración de API Keys (Recomendado)
 
 Para activar las funcionalidades de análisis de reputación externa (VirusTotal e IPDB), debes introducir tus claves de API en la página de opciones de la extensión.
 
