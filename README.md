@@ -1,4 +1,7 @@
 # Ironchip Phishing Shield
+
+<img width="705" height="605" alt="image" src="https://github.com/user-attachments/assets/e2d0a8a3-796b-4f8e-98bb-f49c4fa5c199" />
+
 **Protección proactiva contra Typo-squatting, Ataques de Homógrafos y Phishing.**
 
 Bienvenido al repositorio de la extensión **Ironchip Phishing Shield**. 
@@ -6,8 +9,6 @@ Bienvenido al repositorio de la extensión **Ironchip Phishing Shield**.
 Ironchip Phishing Shield es una extensión de navegador diseñada para proteger a usuarios y empleados de una de las amenazas más comunes en la web: el *phishing* (suplantación de identidad).
 
 Utilizamos algoritmos de seguridad avanzados para detectar sitios maliciosos antes de que el navegador los cargue, evitando que ingreses credenciales o datos sensibles.
-
-<img width="705" height="605" alt="image" src="https://github.com/user-attachments/assets/e2d0a8a3-796b-4f8e-98bb-f49c4fa5c199" />
 
 El repostorio contiene el instalador de la extensión y el fichero que alimenta la lista de dominios protegidos. Esta lista de dominios es de código abierto y colaborativa, crucial para la eficacia de la herramienta.
 
