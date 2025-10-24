@@ -21,16 +21,31 @@ Utilizamos algoritmos de seguridad avanzados para detectar sitios maliciosos ant
 
 ***
 
-## 🚀 Instalación y Primeros Pasos
+## 💾 Instalación del Compilado (`.crx`)
 
-La extensión debe instalarse como una extensión **desempaquetada** en navegadores basados en Chromium (Chrome, Edge, Brave, Opera).
+Dado que esta extensión no está en la Chrome Web Store, la instalación debe realizarse a través del modo de desarrollador.
 
-### Instalación
+### ⚠️ Advertencia Importante
 
-1.  **Descarga el Archivo:** Obtén el archivo comprimido (`phishing_shield.zip`) proporcionado por Ironchip y **descomprímelo** en una carpeta local (ej. `C:\Extensiones\Ironchip`).
-2.  **Abre la Gestión de Extensiones:** Ve a la URL de gestión de tu navegador: `chrome://extensions/`.
-3.  **Modo Desarrollador:** Activa el **"Modo de desarrollador"** (Developer mode) en la esquina superior derecha.
-4.  **Cargar Desempaquetada:** Haz clic en **"Cargar extensión sin empaquetar"** (Load unpacked) y selecciona la carpeta donde descomprimiste los archivos.
+Chrome puede mostrar una advertencia al instalar extensiones fuera de la Chrome Web Store. El archivo compilado (`.crx`) en este repositorio ha sido firmado con nuestra clave.
+
+### Pasos de Instalación:
+
+1.  **Descargar el Archivo:**
+    * Ve a la [pestaña principal del repositorio](https://github.com/Ironchip-Security/Ironchip-Phishing-Shield/tree/main).
+    * Busca el archivo `Phishing Shield.crx` (o el nombre que le hayas dado) y descárgalo a tu ordenador.
+
+2.  **Activar el Modo de Desarrollador en Chrome:**
+    * Abre Google Chrome.
+    * Navega a la página de extensiones escribiendo: `chrome://extensions/`
+    * En la esquina superior derecha, activa el interruptor de **"Modo de desarrollador"** (Developer mode).
+
+3.  **Instalar la Extensión:**
+    * Localiza el archivo **`.crx`** que descargaste.
+    * **Arrastra y suelta** el archivo **`.crx`** directamente sobre la página `chrome://extensions/`.
+    * Chrome te pedirá una confirmación. Haz clic en **"Añadir extensión"**.
+
+La extensión "Phishing Shield" se instalará y aparecerá en tu barra de herramientas.
 
 ### Configuración (Recomendada)
 
