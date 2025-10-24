@@ -1,19 +1,19 @@
 # Ironchip Phishing Shield
 **Protección proactiva contra Typo-squatting, Ataques de Homógrafos y Phishing.**
 
-Bienvenido al repositorio de la extensión **Ironchip Phishing Shield**. El repostorio contiene el instalador de la extensión y el fichero que alimenta la lista de dominios protegidos. Esta lista de dominios es de código abierto y colaborativa, crucial para la eficacia de la herramienta.
-
-***
-
-## 💡 Sobre Ironchip Phishing Shield
-
-<img width="705" height="605" alt="image" src="https://github.com/user-attachments/assets/e2d0a8a3-796b-4f8e-98bb-f49c4fa5c199" />
+Bienvenido al repositorio de la extensión **Ironchip Phishing Shield**. 
 
 Ironchip Phishing Shield es una extensión de navegador diseñada para proteger a usuarios y empleados de una de las amenazas más comunes en la web: el *phishing* (suplantación de identidad).
 
 Utilizamos algoritmos de seguridad avanzados para detectar sitios maliciosos antes de que el navegador los cargue, evitando que ingreses credenciales o datos sensibles.
 
-### ¿Qué hace exactamente?
+<img width="705" height="605" alt="image" src="https://github.com/user-attachments/assets/e2d0a8a3-796b-4f8e-98bb-f49c4fa5c199" />
+
+El repostorio contiene el instalador de la extensión y el fichero que alimenta la lista de dominios protegidos. Esta lista de dominios es de código abierto y colaborativa, crucial para la eficacia de la herramienta.
+
+***
+
+## ¿Qué hace exactamente?
 
 1.  **Detección de Similitud (Typo-squatting):** Compara el dominio que estás visitando con nuestra **lista maestra** (alojada aquí) y tus **dominios personalizados**. Si un sitio como `gogle.com` se parece demasiado a uno legítimo (`google.com`), la extensión **bloquea la carga de la página** y te redirige a una pantalla de advertencia.
 2.  **Detección de Homógrafos:** Identifica dominios que utilizan caracteres Unicode visualmente idénticos a letras latinas (ej. una 'a' cirílica en lugar de una 'a' normal) para engañar.
