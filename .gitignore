@@ -1,0 +1,6 @@
+# Ignorar archivos de claves de empaquetado
+*.pem
+
+# Ignorar archivos de sistema o temporales (útil en macOS o Windows)
+.DS_Store
+Thumbs.db
