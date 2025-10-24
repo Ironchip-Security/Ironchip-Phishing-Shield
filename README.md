@@ -48,6 +48,32 @@ Chrome puede mostrar una advertencia al instalar extensiones fuera de la Chrome 
 
 La extensión "Phishing Shield" se instalará y aparecerá en tu barra de herramientas.
 
+***
+
+## ⚙️ Primeros Pasos y Configuración de API Keys
+
+Para activar las funcionalidades de análisis de reputación externa (VirusTotal e IPDB), debes introducir tus claves de API en la página de opciones de la extensión.
+
+### 1. Obtener tus API Keys
+
+| Servicio | Enlace para Obtener Clave | Notas |
+| :--- | :--- | :--- |
+| **VirusTotal** | [Registro en VirusTotal](https://www.virustotal.com/gui/join-us) | Necesitas una clave **API v3**. Las cuentas gratuitas tienen límites de peticiones. |
+| **IPDB** | [Registro en IPDB](https://ipdb.io/register) | Obtén tu clave para el servicio de inteligencia de amenazas de IP. |
+
+### 2. Configurar las Claves en la Extensión
+
+Una vez que tengas tu clave:
+
+1.  **Abrir Opciones:** Haz clic derecho sobre el **icono de la extensión** ("Phishing Shield") en tu barra de Chrome.
+2.  Selecciona **"Opciones"** (Options).
+3.  Se abrirá la página de configuración de la extensión.
+4.  Localiza los campos **"VirusTotal API Key"** y **"IPDB API Key"**.
+5.  Introduce las claves correspondientes.
+6.  Haz clic en el botón **"Guardar"** (o el texto que hayas definido en tu página de opciones).
+
+Una vez guardadas, la extensión comenzará a usar estos servicios para enriquecer su análisis y bloquear sitios basándose en la reputación de la comunidad de seguridad.
+
 ### Configuración (Recomendada)
 
 Después de la instalación, haz clic en el icono de Ironchip y abre el *popup* para configurar la herramienta. La lista de **Dominios Personalizados** es fundamental para proteger activos internos de tu empresa.
