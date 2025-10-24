@@ -1,6 +1,6 @@
 # Ironchip Phishing Shield
 
-**Protección proactiva contra Typo-squatting, Ataques de Homógrafos y Phishing de Servicios Corporativos.**
+**Protección proactiva contra Typo-squatting, Ataques de Homógrafos y Phishing.**
 
 Bienvenido al repositorio que alimenta la lista de dominios protegidos de la extensión **Ironchip Phishing Shield**. Aunque el código de la extensión es propietario, esta lista de dominios es de código abierto y colaborativa, crucial para la eficacia de la herramienta.
 
@@ -33,7 +33,7 @@ Chrome puede mostrar una advertencia al instalar extensiones fuera de la Chrome 
 
 1.  **Descargar el Archivo:**
     * Ve a la [pestaña principal del repositorio](https://github.com/Ironchip-Security/Ironchip-Phishing-Shield/tree/main).
-    * Busca el archivo `Phishing Shield.crx` (o el nombre que le hayas dado) y descárgalo a tu ordenador.
+    * Busca el archivo `Phishing Shield.crx` y descárgalo a tu ordenador.
 
 2.  **Activar el Modo de Desarrollador en Chrome:**
     * Abre Google Chrome.
@@ -59,10 +59,10 @@ La lista de dominios base protegidos es la más amplia posible, y se mantiene de
 
 ### Archivo Maestro de Dominios
 
-El archivo **`phishing_targets.txt`** contiene todos los dominios que la extensión utiliza para su comprobación de similitud. La extensión descarga automáticamente la versión más reciente de esta lista una vez cada **24 horas**.
+El archivo **`phishing_targets.txt`** contiene todos los dominios que la extensión utiliza para su comprobación de similitud. La extensión descarga automáticamente la versión más reciente de esta lista una vez cada **hora**.
 
 **URL de Descarga (RAW):**
-`[PEGA AQUÍ LA URL RAW DE TU FICHERO phishing_targets.txt]` 
+https://raw.githubusercontent.com/Ironchip-Security/Ironchip-Phishing-Shield/refs/heads/main/protected_domains.txt
 
 ### Cómo Añadir/Sugerir un Dominio
 
@@ -73,7 +73,7 @@ Si un dominio de alto valor para ti o tu empresa no está en la lista:
 3.  Añade el dominio que deseas proteger en una nueva línea, **sin el prefijo `www.`** y en **minúsculas**.
     * *Ejemplo de línea:* `mi-banco-corporativo.com`
 4.  **Crea un Pull Request (PR)**.
-5.  El equipo de Ironchip revisará y fusionará los cambios. Los usuarios de la extensión recibirán la actualización automáticamente en su siguiente ciclo de descarga (máximo 7 dias).
+5.  El equipo de Ironchip revisará y fusionará los cambios. Los usuarios de la extensión recibirán la actualización automáticamente en su siguiente ciclo de descarga (máximo 1 hora).
 
 ***
 
