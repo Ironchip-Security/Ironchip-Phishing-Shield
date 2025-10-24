@@ -2,7 +2,7 @@
 
 **Protección proactiva contra Typo-squatting, Ataques de Homógrafos y Phishing.**
 
-Bienvenido al repositorio que alimenta la lista de dominios protegidos de la extensión **Ironchip Phishing Shield**. Aunque el código de la extensión es propietario, esta lista de dominios es de código abierto y colaborativa, crucial para la eficacia de la herramienta.
+Bienvenido al repositorio que alimenta la lista de dominios protegidos de la extensión **Ironchip Phishing Shield**. Esta lista de dominios es de código abierto y colaborativa, crucial para la eficacia de la herramienta.
 
 ***
 
