@@ -91,6 +91,7 @@ logitech.com
 hp.com
 dell.com
 lenovo.com
+kydom.net
 
 # --- SECCIÓN 2: SOFTWARE CORPORATIVO Y PRODUCTIVIDAD (APROX. 500) ---
 # ERP, CRM, Colaboración, Cloud, Desarrollo, Seguridad, HR, Ventas, Marketing.
