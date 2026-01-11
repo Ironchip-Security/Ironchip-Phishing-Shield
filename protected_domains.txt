@@ -8,9 +8,6 @@
 # --- SECCIÓN 1: GIGANTES TECNOLÓGICOS Y PLATAFORMAS CORE (APROX. 150) ---
 google.com
 gmail.com
-drive.google.com
-docs.google.com
-accounts.google.com
 youtube.com
 android.com
 googleusercontent.com
@@ -18,7 +15,6 @@ googleapis.com
 google-analytics.com
 gstatic.com
 googletagmanager.com
-maps.google.com
 microsoft.com
 outlook.com
 office.com
@@ -31,16 +27,7 @@ windows.net
 microsoftonline.com
 apple.com
 icloud.com
-appleid.apple.com
-store.apple.com
-itunes.apple.com
 amazon.com
-aws.amazon.com
-primevideo.com
-twitch.tv
-amazon.co.uk
-amazon.de
-amazon.co.jp
 facebook.com
 instagram.com
 whatsapp.com
