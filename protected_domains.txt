@@ -6,6 +6,7 @@
 # Formato: Un dominio por línea, sin 'www.', en minúsculas.
 
 # --- SECCIÓN 1: GIGANTES TECNOLÓGICOS Y PLATAFORMAS CORE (APROX. 150) ---
+ironchip.com
 google.com
 gmail.com
 youtube.com
