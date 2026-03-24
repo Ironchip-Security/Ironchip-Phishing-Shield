@@ -53,25 +53,16 @@ La extensión "Phishing Shield" se instalará y aparecerá en tu barra de herram
 
 ## ⚙️ Primeros Pasos y Configuración de API Keys (Recomendado)
 
-Para activar las funcionalidades de análisis de reputación externa (VirusTotal e IPDB), debes introducir tus claves de API en la página de opciones de la extensión.
-
-### 1. Obtener tus API Keys
-
-| Servicio | Enlace para Obtener Clave | Notas |
-| :--- | :--- | :--- |
-| **VirusTotal** | [Registro en VirusTotal](https://www.virustotal.com/gui/join-us) | Necesitas una clave **API v3**. Las cuentas gratuitas tienen límites de peticiones. |
-| **IPDB** | [Registro en IPDB](https://ipdb.io/register) | Obtén tu clave para el servicio de inteligencia de amenazas de IP. |
+Para activar las funcionalidades, debes introducir tus claves de API en la página de opciones de la extensión. (Las que se te proporcionan en https://phishingshield.ironchip.com)
 
 ### 2. Configurar las Claves en la Extensión
 
 Una vez que tengas tu clave:
 
-1.  **Abrir Opciones:** Haz clic derecho sobre el **icono de la extensión** ("Phishing Shield") en tu barra de Chrome.
-2.  Selecciona **"Opciones"** (Options).
-3.  Se abrirá la página de configuración de la extensión.
-4.  Localiza los campos **"VirusTotal API Key"** y **"IPDB API Key"**.
-5.  Introduce las claves correspondientes.
-6.  Haz clic en el botón **"Guardar"** (o el texto que hayas definido en tu página de opciones).
+1.  **Abrir Opciones:** Haz clic sobre el **icono de la extensión** ("Phishing Shield") en tu barra de Chrome.
+2.  Se abrirá la página de configuración de la extensión.
+3.  Introduce tu correo y la clave correspondientes.
+4.  Haz clic en el botón **"Guardar"** (o el texto que hayas definido en tu página de opciones).
 
 Una vez guardadas, la extensión comenzará a usar estos servicios para enriquecer su análisis y bloquear sitios basándose en la reputación de la comunidad de seguridad.
 
@@ -84,35 +75,6 @@ Después de la instalación, haz clic en el icono de Ironchip y abre el *popup* 
 ## 🤝 Contribución y Actualización de Dominios
 
 La lista de dominios base protegidos es la más amplia posible, y se mantiene de forma colaborativa a través de este repositorio.
-
-### Archivo Maestro de Dominios
-
-El archivo **`phishing_targets.txt`** contiene todos los dominios que la extensión utiliza para su comprobación de similitud. La extensión descarga automáticamente la versión más reciente de esta lista una vez cada **hora**.
-
-**URL de Descarga (RAW):**
-https://raw.githubusercontent.com/Ironchip-Security/Ironchip-Phishing-Shield/refs/heads/main/protected_domains.txt
-
-### Cómo Añadir/Sugerir un Dominio
-
-Si un dominio de alto valor para ti o tu empresa no está en la lista:
-
-1.  **Haz un Fork** de este repositorio.
-2.  **Edita el archivo `phishing_targets.txt`**.
-3.  Añade el dominio que deseas proteger en una nueva línea, **sin el prefijo `www.`** y en **minúsculas**.
-    * *Ejemplo de línea:* `mi-banco-corporativo.com`
-4.  **Crea un Pull Request (PR)**.
-5.  El equipo de Ironchip revisará y fusionará los cambios. Los usuarios de la extensión recibirán la actualización automáticamente en su siguiente ciclo de descarga (máximo 1 hora).
-
-***
-
-## 🔮 Roadmap Futuro (Próximas Mejoras)
-
-Estamos trabajando continuamente para mejorar la eficacia de la protección de Ironchip:
-
-* **Integración con Machine Learning:** Uso de modelos para clasificar la legitimidad de una página basándose en el diseño, contenido y metadatos, no solo en la URL.
-* **Análisis de Certificados:** Detección de certificados SSL recién emitidos o con datos sospechosos.
-* **Gestión Centralizada de Políticas:** Para clientes corporativos, la capacidad de desplegar la lista de dominios personalizados y claves API de forma remota a todos los empleados.
-* **Soporte Multi-Navegador:** Lanzamiento oficial en la tienda de extensiones de Firefox.
 
 ***
 
